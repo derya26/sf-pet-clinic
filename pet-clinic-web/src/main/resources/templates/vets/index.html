@@ -15,10 +15,10 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr th:each="owner :${vets}">
-				<td th:text="${vets.id}">1</td>
-				<td th:text="${vets.firstName}">Joe</td>
-				<td th:text="${vets.lastName}">Buck</td>
+			<tr th:each="vet :${vets}">
+				<td th:text="${vet.id}">1</td>
+				<td th:text="${vet.firstName}">Joe</td>
+				<td th:text="${vet.lastName}">Buck</td>
 			</tr>
 		</tbody>
 	</table>
